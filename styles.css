@@ -1,0 +1,147 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Amor+Luz&family=Lujoso+Romano&family=Major+Mono+Display&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan+SC&display=swap');
+
+.sedan-sc-regular {
+    font-family: "Sedan SC", serif;
+}
+
+/* Ajuste imagen post */
+.post_img img {
+    max-width: 100%;
+    background-color: white;
+    margin: 0;
+}
+
+/* Ajuste body */
+body {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Ajuste post */
+.post {
+    background-color: white;
+    width: 300px;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.9s ease;
+}
+
+.post:hover {
+	box-shadow: 0 0 25px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255) inset;
+}
+
+/* Ajuste encabezado post */
+.post_header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post_header_img {
+    margin-right: 10px;
+}
+
+/* Ajuste post title */
+.post_title {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.post_title_header {
+    margin: 0;
+}
+
+.post_title_test {
+    margin-top: -18px;
+}
+
+/* Ajuste Menú */
+.menu_container {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-btn {
+    background-color: transparent; 
+    border: none;
+    padding: 0; 
+}
+
+.menu-icon {
+    width: 40px; 
+    height: 40px;
+}
+
+.menu-icon:hover {
+	transform: scale(1.5) translateZ(20px);
+}
+
+.menu_content {
+    display: none;
+    width: 200px;
+    position: absolute;
+    top: 65px;
+    right: 0; 
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.menu_content a {
+    color: black;
+    padding: 5px 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+}
+
+.menu_content a:hover {
+    background-color: #bbbbbbc9;
+}
+
+
+/* Ajuste post body */
+.post_body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    text-align: justify;
+}
+
+/* Ajuste post iconos */
+.post_icons {
+    display: flex;
+    align-items: center;
+}
+
+.post_icons_img {
+    display: inline;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.post_icons_img:hover {
+	box-shadow: 0 0 25px rgb(255, 255, 255) inset;
+	transform: scale(1.5) translateZ(20px);
+}
+
+.post_icons_img1 {
+    margin-left: auto;
+    width: 25px;
+}
+
+.post_icons_img1:hover {
+	box-shadow: 0 0 25px rgb(255, 255, 255) inset;
+	transform: scale(1.5) translateZ(20px);
+}
